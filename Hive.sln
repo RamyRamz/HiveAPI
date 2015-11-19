@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hive_API", "Hive_API\Hive_API.csproj", "{2CD64043-9D2A-45E8-B623-69E1AFCC302A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{0F255860-8359-41A6-9609-F8209E82E964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{889C3EF1-D13F-4B57-B482-12CFD6840B65}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{BE69D81C-1B17-40C2-B16F-7F0D2E56CD0A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\HiveAPI.json = PublishScripts\Templates\HiveAPI.json
+		PublishScripts\Templates\HiveAPI.param.dev.json = PublishScripts\Templates\HiveAPI.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD64043-9D2A-45E8-B623-69E1AFCC302A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD64043-9D2A-45E8-B623-69E1AFCC302A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD64043-9D2A-45E8-B623-69E1AFCC302A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD64043-9D2A-45E8-B623-69E1AFCC302A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{889C3EF1-D13F-4B57-B482-12CFD6840B65} = {0F255860-8359-41A6-9609-F8209E82E964}
+		{BE69D81C-1B17-40C2-B16F-7F0D2E56CD0A} = {0F255860-8359-41A6-9609-F8209E82E964}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "Hive-API"
+  },
+  "hostingPlanName": {
+    "value": "Hive"
+  },
+  "siteLocation": {
+    "value": "East US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "9bb50c1a-3eda-4cfb-8d6f-ff7aa12434a9"
+  },
+  "resourceGroup": {
+    "value": "Hive_EastUS"
+  }
+}
